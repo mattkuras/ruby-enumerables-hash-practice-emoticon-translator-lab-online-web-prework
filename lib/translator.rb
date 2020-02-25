@@ -16,7 +16,7 @@ end
   if load_library(file_path)[:get_emoticon][emoticon] === nil 
     return "Sorry, that emoticon was not found"
 
-    
+end
     end
 
 
