@@ -14,7 +14,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
 load_library(file_path)[:get_meaning].each do |key, value|
   if value === "grinning" 
-   return key
+   key
   end
   end
   
