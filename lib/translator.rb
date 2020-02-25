@@ -18,7 +18,7 @@ end
   end
     end
     end
-end
+
 
 # def get_japanese_emoticon(file_path, emoticon)
 #   binding.pry 
