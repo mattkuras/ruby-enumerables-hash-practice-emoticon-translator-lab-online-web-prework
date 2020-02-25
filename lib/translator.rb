@@ -20,7 +20,7 @@ end
 #     "not here"
 #   end
   load_library(file_path)[:get_meaning].each do |key, value|
-  if key === emoticon 
+  if value === "grinning" 
     return key 
   end
     end
