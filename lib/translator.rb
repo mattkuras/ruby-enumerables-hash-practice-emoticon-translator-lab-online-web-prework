@@ -11,7 +11,7 @@ hash
 end
   
 
-# def get_japanese_emoticon(file_path, emoticon)
+ def get_japanese_emoticon(file_path, emoticon)
 #   binding.pry 
 #   testing = load_library(file_path)[:get_meaning][emoticon]
 #   if testing !== nil 
@@ -20,13 +20,14 @@ end
 #     "not here"
 #   end
   
-  #load_library(file_path)[:get_meaning].each do |key, value|
-#   if value === "happy"
-#     key 
-#     end
-#   if value === "grinning" 
-#   key
-# end
+  load_library(file_path)[:get_meaning].each do |key, value|
+binding.pry 
+  if value === "happy"
+    key 
+    end
+  if value === "grinning" 
+  key
+end
   end
 end
 
