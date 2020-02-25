@@ -23,7 +23,7 @@ end
         binding.pry 
 
   if key === emoticon 
-    key 
+    return key 
   end
     end
 end
