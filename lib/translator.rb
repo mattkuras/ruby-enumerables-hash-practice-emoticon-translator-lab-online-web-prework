@@ -20,8 +20,9 @@ end
 #     "not here"
 #   end
   load_library(file_path)[:get_meaning].each do |key, value|
+        binding.pry 
+
   if key === emoticon 
-    binding.pry 
     key 
   end
     end
