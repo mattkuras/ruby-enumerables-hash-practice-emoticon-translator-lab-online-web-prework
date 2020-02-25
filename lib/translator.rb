@@ -35,5 +35,5 @@ end
 
 def get_english_meaning(file_path, emoticon)
   binding.pry 
-   load_library(file_path)[:get_emoticon][emoticon]
+   load_library(file_path)[:get_meaning][emoticon]
 end
