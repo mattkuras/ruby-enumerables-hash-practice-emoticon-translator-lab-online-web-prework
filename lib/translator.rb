@@ -16,6 +16,7 @@ load_library(file_path)[:get_meaning].each do |key, value|
   if value === "grinning" 
    key
   end
+end
   end
   
   end
