@@ -15,7 +15,7 @@ end
   load_library(file_path)[:get_meaning].each do |key, value|
   if value === "grinning" 
     return key 
-    binding.pry 
+     binding.pry
   end
     end
     end
