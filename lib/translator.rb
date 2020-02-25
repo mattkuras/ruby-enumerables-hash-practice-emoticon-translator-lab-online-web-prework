@@ -24,6 +24,11 @@ end
     return key 
   end
     end
+    load_library(file_path)[:get_meaning].each do |key, value|
+  if value === "happy" 
+    return key 
+  end
+    end
 end
 
 # def get_japanese_emoticon(file_path, emoticon)
