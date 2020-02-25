@@ -22,13 +22,10 @@ end
   binding.pry 
   load_library(file_path)[:get_meaning].each do |key, value|
 #binding.pry 
-  if value === "happy"
-    key 
-    end
-  if value === "grinning" 
-  key
-end
+  if value === emoticon 
+    value 
   end
+    end
 end
 
 # def get_japanese_emoticon(file_path, emoticon)
