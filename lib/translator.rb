@@ -19,7 +19,7 @@ end
 #   else 
 #     "not here"
 #   end
-  
+  binding.pry 
   load_library(file_path)[:get_meaning].each do |key, value|
 binding.pry 
   if value === "happy"
