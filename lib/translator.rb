@@ -21,6 +21,7 @@ end
 #   end
   load_library(file_path)[:get_meaning].each do |key, value|
   if key === emoticon 
+    binding.pry 
     key 
   end
     end
